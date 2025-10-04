@@ -1,0 +1,16 @@
+title: Knowledge Project 研究紹介
+description: "研究の全体像、進行中のプロジェクト、成果を紹介するワンページサイト"
+url: ""
+baseurl: ""
+theme: minima
+lang: ja-JP
+author:
+  name: Knowledge Project Lab
+  email: research@example.com
+minima:
+  skin: auto
+show_excerpts: false
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+google_analytics:
