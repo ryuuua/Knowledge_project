@@ -1,9 +1,9 @@
-title: Knowledge Project 研究紹介
-description: "研究の全体像、進行中のプロジェクト、成果を紹介するワンページサイト"
+title: Knowledge Project Research
+description: "A monochrome one-page research site with current projects and milestones."
 url: ""
 baseurl: ""
 theme: minima
-lang: ja-JP
+lang: en-US
 author:
   name: Knowledge Project Lab
   email: research@example.com

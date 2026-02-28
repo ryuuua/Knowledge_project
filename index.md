@@ -3,24 +3,25 @@ layout: home
 title: Research Overview
 ---
 
-<section class="hero reveal delay-1">
+<section id="about" class="hero reveal delay-1">
   <p class="eyebrow">Knowledge Project / Research Notes</p>
   <h1>Monochrome Research Interface</h1>
   <p class="subtitle">
-    知識獲得と長期記憶の設計を軸に、実験・理論・実装を横断する研究ページです。
-    余白と構造を重視し、進行中のプロジェクトを中心に現在地を明確化しています。
+    This page tracks our work across experiments, theory, and implementation for
+    knowledge acquisition and long-term memory in language systems.
+    The structure is intentionally minimal so ongoing projects stay visible at a glance.
   </p>
   <div class="hero-actions">
-    <a class="btn primary" href="#ongoing-projects">進行中プロジェクト</a>
-    <a class="btn ghost" href="#focus">研究フォーカス</a>
-    <a class="btn ghost" href="#contact">連絡先</a>
+    <a class="btn primary" href="#ongoing-projects">Current Projects</a>
+    <a class="btn ghost" href="#focus">Research Focus</a>
+    <a class="btn ghost" href="#contact">Contact</a>
   </div>
 </section>
 
 <section id="ongoing-projects" class="card reveal delay-2">
   <div class="section-head">
     <p class="section-label">Now Running</p>
-    <h2>進行中プロジェクト</h2>
+    <h2>Ongoing Projects</h2>
   </div>
 
   <div class="project-board">
@@ -30,13 +31,13 @@ title: Research Overview
         <span class="status">In Progress</span>
       </div>
       <p>
-        言語モデル内部の表現を、時間的に整合する知識空間へ再配置するための次世代実装。
-        再現性の高い訓練ループと検証ベンチマークを同時に更新しています。
+        A next-generation implementation that remaps internal language-model representations
+        into a temporally consistent knowledge space, with reproducible training and evaluation.
       </p>
       <ul class="project-list">
-        <li>表現整列: latent trajectory の安定化</li>
-        <li>評価設計: 外部知識との整合率を定量化</li>
-        <li>公開準備: 実験ログの再構成</li>
+        <li>Representation alignment: stabilize latent trajectories</li>
+        <li>Evaluation design: quantify consistency with external knowledge</li>
+        <li>Release preparation: restructure experiment logs for reproducibility</li>
       </ul>
     </article>
 
@@ -46,13 +47,13 @@ title: Research Overview
         <span class="status">In Progress</span>
       </div>
       <p>
-        長期依存の知識を軽量な推論経路に落とし込む実験ライン。
-        記憶検索と推論の切り替えコストを抑え、説明可能な出力形式を整備しています。
+        An experimental line for converting long-horizon knowledge into lightweight
+        inference paths while keeping outputs interpretable and operationally efficient.
       </p>
       <ul class="project-list">
-        <li>記憶検索: context window 外の情報を再注入</li>
-        <li>推論経路: 線形化された reasoning trace を検証</li>
-        <li>実運用化: 低遅延環境での負荷試験</li>
+        <li>Memory retrieval: re-inject information beyond the context window</li>
+        <li>Inference path: validate linearized reasoning traces</li>
+        <li>Deployment readiness: run low-latency load tests</li>
       </ul>
     </article>
   </div>
@@ -62,11 +63,11 @@ title: Research Overview
   <article class="card">
     <div class="section-head compact">
       <p class="section-label">Research Focus</p>
-      <h2>研究フォーカス</h2>
+      <h2>Core Direction</h2>
     </div>
     <p>
-      研究の主眼は「知識がどこで生まれ、どのように保持され、どの瞬間に使われるか」を
-      計測可能な設計へ変換することです。性能だけでなく、根拠と再利用性を同時に扱います。
+      Our main question is where knowledge forms, how it is retained, and when it is used.
+      We build measurable systems that balance performance, evidence, and reusability.
     </p>
     <ul class="mono-list">
       <li>Knowledge acquisition and retention modeling</li>
@@ -78,51 +79,51 @@ title: Research Overview
   <article class="card">
     <div class="section-head compact">
       <p class="section-label">Method Stack</p>
-      <h2>方法論</h2>
+      <h2>Approach</h2>
     </div>
     <div class="metric-strip">
       <div class="metric-cell">
         <span class="metric-label">A</span>
-        <p>内部表現の幾何解析</p>
+        <p>Geometric analysis of internal representations</p>
       </div>
       <div class="metric-cell">
         <span class="metric-label">B</span>
-        <p>知識整列の計量評価</p>
+        <p>Quantitative evaluation of knowledge alignment</p>
       </div>
       <div class="metric-cell">
         <span class="metric-label">C</span>
-        <p>運用環境での継続検証</p>
+        <p>Continuous validation in practical environments</p>
       </div>
     </div>
   </article>
 </section>
 
-<section class="card reveal delay-4">
+<section id="roadmap" class="card reveal delay-4">
   <div class="section-head compact">
     <p class="section-label">Roadmap</p>
-    <h2>直近のマイルストーン</h2>
+    <h2>Near-Term Milestones</h2>
   </div>
   <div class="timeline">
     <div class="timeline-item">
       <span class="period">Q1 2026</span>
-      <p>CEBRA-NLP-gen2 の訓練ログ統合と再現実験の固定化。</p>
+      <p>Consolidate CEBRA-NLP-gen2 training logs and lock reproducibility checks.</p>
     </div>
     <div class="timeline-item">
       <span class="period">Q2 2026</span>
-      <p>Larm liniditip の推論トレース評価を外部データで拡張。</p>
+      <p>Expand Larm liniditip trace evaluation on external datasets.</p>
     </div>
     <div class="timeline-item">
       <span class="period">Q3 2026</span>
-      <p>2系統の成果を統合した報告書とデモ環境を公開予定。</p>
+      <p>Publish an integrated report and demo environment for both tracks.</p>
     </div>
   </div>
 </section>
 
 <section id="contact" class="callout reveal delay-5">
-  <h2>共同研究・技術相談</h2>
+  <h2>Research Collaboration</h2>
   <p>
-    知識表現、長期記憶、説明可能性をテーマにした共同研究・技術相談を受け付けています。
-    メールまたは GitHub Issues から連絡してください。
+    We welcome collaboration and technical discussion on knowledge representation,
+    long-term memory, and explainable language systems.
   </p>
   <a class="btn primary" href="mailto:research@example.com">research@example.com</a>
 </section>
